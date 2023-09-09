@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+      @apply scroll-smooth;
+    }
+  }
+
+::-webkit-scrollbar {
+  background-color: #525252;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #cbd3d7;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+}
