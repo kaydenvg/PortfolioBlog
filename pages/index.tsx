@@ -23,7 +23,7 @@ export default function Home() {
                     width={500}
                     height={500}
                     alt="Picture of me"/>
-                  <h1 className="mt-2 text-center text-6xl lg:text-7xl font-extrabold tracking-tight block text-sky-500 drop-shadow-sm">
+                  <h1 className="mt-2 text-center text-6xl lg:text-7xl font-bold tracking-tight block text-sky-500 drop-shadow-sm">
                       Kayden von Grosse
                   </h1>
                   <div className="mt-4 text-center text-2xl lg:text-3xl font-bold tracking-tight text-sky-400">              
