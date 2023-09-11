@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { TitleBar } from '../../components/titlebar';
-import { getPostsMetaData } from '../../lib/getPostsData.js';
+import { getPostsMetaData } from '../../app/lib/getPostsData';
 
 export async function getStaticProps() {
   const postsData = getPostsMetaData();
@@ -31,4 +31,3 @@ export default function Blog(){
       </div> 
     );
 }
-

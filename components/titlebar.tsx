@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import {ChevronLeftIcon} from '@heroicons/react/24/solid'
 
+import '../app/globals.css'
+
 type props = {
     title : string
 }
